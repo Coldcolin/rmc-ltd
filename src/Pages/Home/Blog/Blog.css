@@ -1,0 +1,245 @@
+.Blog {
+    height: 120vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blogs {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+
+
+}
+
+.leftblogside {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middleblogside {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightblogside {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogchannels {
+    height: 100%;
+    width: 31%;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.blogchannelsimage {
+    height: 40%;
+    width: 100%;
+
+}
+
+.blogchannelsimage img {
+    height: 100%;
+    width: 100%;
+}
+
+.blogchannelstext {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.blogchannelstext1 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    padding-inline-start: 30px;
+    align-items: end;
+    gap: 30px;
+    font-size: 16px;
+
+}
+
+.blogchannelstext1 h4 {
+    color: #f4ba48;
+}
+
+.blogchannelstext2 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    padding-inline-start: 30px;
+    align-items: center;
+    gap: 30px;
+    line-height: 1.3;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.blogchannelstext2 :hover {
+    color: #f4ba48;
+}
+
+.blogchannelstext3 {
+    height: 25%;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-inline-start: 30px;
+}
+
+.blogchannelstext4 {
+    height: 25%;
+    width: 100%;
+    font-size: 18px;
+    padding-inline-start: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.blogchannelstext4 a {
+    color: #f4ba48;
+}
+
+.pointercirle:hover {
+    transition: 500ms;
+    background-color: #102e46;
+}
+
+.square {
+    height: 80px;
+    width: 90px;
+    border-radius: 4px;
+    background-color: #f4ba48;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square1 {
+    height: 80px;
+    width: 90px;
+    border-radius: 4px;
+    background-color: #f4ba48;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square2 {
+    height: 80px;
+    width: 90px;
+    border-radius: 4px;
+    background-color: #f4ba48;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pointercirle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #f4ba48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f6f6f6;
+    font-size: 25px;
+}
+
+/* For devices with a width between 768px and 991px (e.g., tablets in portrait mode) */
+@media (min-width: 768px) and (max-width: 991px) {
+.pointercirle {
+    height: 25px;
+    width: 25px;
+}
+
+.leftblogside {
+    width: 5%;
+}
+
+.middleblogside {
+    width: 90%;
+}
+
+.rightblogside {
+    height: 100%;
+    width:5%;
+}
+}
+
+@media (max-width: 767px) {
+    /* CSS styles for mobile devices */
+
+    .Blog {
+        height: max-content;
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .middleblogside {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .blogs {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .blogchannels {
+        height: 70vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .blogs {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .square2 {
+        height: 70px;
+        width: 70px;
+        font-size: 12px;
+    }
+
+    .pointercirle {
+        height: 30px;
+        width: 30px;
+    }
+
+}

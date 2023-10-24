@@ -1,0 +1,389 @@
+.Achivment {
+    height: max-content;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.Achivment-background {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../../assets/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.Achivment-backgroundposition {
+    height: 52rem;
+    width: 60%;
+    background-color: #102e46;
+    position: relative;
+    left: 20em;
+    top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Achivment-title {
+    height: 10%;
+    width: 100%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+}
+
+.Achivment-text {
+    height: 15%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Achivment-list {
+    height: 20%;
+    width: 100%;
+    color: #fff;
+
+}
+
+.Achivment-wins {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark {
+    display: flex;
+    gap: 20px;
+    line-height: 2.5;
+    font-size: 18px;
+    padding-left: 10%;
+    align-items: center;
+}
+
+.Achivment-winscontainers {
+    height: 65%;
+    width: 20%;
+    border-right: 2px solid rgb(254, 255, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.Achivment-winscontainers h1 {
+    font-size: 78px;
+    color: #fff;
+
+}
+
+.Achivment-winscontainers h6 {
+    font-size: 18px;
+    color: #f4ba48;
+}
+
+.famous {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.famous h3 {
+    font-size: 40px;
+}
+
+.worker {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.worker-wrapper {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.worker-boxes {
+    height: 30rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.worker-image {
+    height: 75%;
+    width: 100%;
+    position: relative;
+}
+
+.worker-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.worker-imagehover {
+    height: 100%;
+    width: 100%;
+    background-color: #102e467e;
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    align-items: end;
+    top: 0;
+    padding-bottom: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.worker-imagehover:hover {
+    opacity: 1;
+    transition: 0.9s ease;
+}
+
+.worker-text {
+    height: 23%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.social-boxes {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worker-text h1 {
+    font-size: 20px;
+    color: #333333;
+}
+
+.worker-text P{
+    font-size: 14px;
+    color: #333333;
+
+}
+
+.worker-boxes:hover{
+    border-bottom: 2px solid rgb(252, 252, 3);
+}
+
+
+/* For devices with a width between 768px and 991px (e.g., tablets in portrait mode) */
+@media (min-width: 768px) and (max-width: 991px) {
+.Achivment-backgroundposition {
+    width: 90%;
+    left: 1.5em;
+    top: 8em;
+    /* height: 60rem; */
+}
+
+.Achivment-backgroundposition {
+    height: 57rem;
+    width: 90%;
+    background-color: #102e46;
+    position: relative;
+    left: 2em;
+    top: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .Achivment-title {
+    height: 25%;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    align-items: end;
+    display: flex;
+    font-size: 28px;
+    padding-left: 10%;
+}
+
+.Achivment-text {
+    height: 25%;
+
+}
+
+.Achivment-list {
+    height: 40%;
+    width: 100%;
+    color: #fff;
+}
+
+.famous h3 {
+    font-size: 24px;
+}
+
+.famous p {
+    font-size: 12px;
+    padding-inline: 20px;
+}
+
+.worker{
+height: max-content;
+}
+
+.worker-wrapper {
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.worker-boxes {
+    /* height: 35rem; */
+    width: 48%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+}
+
+@media (max-width: 767px)
+/* CSS styles for mobile devices */
+    {
+    .Achivment-backgroundposition {
+        width: 90%;
+        left: 1.5em;
+        top: 8em;
+        height: 30rem;
+    }
+
+
+    .Achivment-title {
+        font-size: 14px;
+        text-align: center;
+
+        height: 15%;
+    }
+
+    .Achivment-text {
+        height: 30%;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    .Achivment-list {
+        height: 30%;
+        width: 100%;
+        color: #fff;
+
+    }
+
+    .Achivment-wins {
+        height: 30%;
+        width: 100%;
+        text-align: justify;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .worker {
+        height: 60vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .mark {
+        gap: 10px;
+        line-height: 1.8;
+        font-size: 12px;
+        padding-left: 15px;
+        height: 30%;
+    }
+
+    .Achivment-winscontainers {
+        height: 35%;
+        width: 30%;
+        border-right: 2px solid rgb(254, 255, 254);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        line-height: 1.2;
+    }
+
+    .Achivment-winscontainers h1 {
+        font-size: 38px;
+        color: #fff;
+
+    }
+
+    .Achivment-winscontainers h6 {
+        font-size: 10px;
+        color: #f4ba48;
+    }
+
+
+    .famous {
+        height: 30vh;
+        margin-top: 50%;
+        width: 90%;
+    }
+
+    .famous h3 {
+        font-size: 16px;
+    }
+
+    .worker {
+         height:max-content;
+     
+    }
+       
+
+    .worker-boxes {
+        height: 28rem;
+        width:  100%;          
+    }
+
+    .worker-wrapper {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+}
+.H{
+    font-size: 34px;
+    color: #fff;
+}
+@media screen and (max-width: 425px){
+    .H{
+    font-size: 28px;
+    margin-top: 25px;
+    }
+}

@@ -1,0 +1,400 @@
+.Portfoilo {
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Portfoilo-mainContainer {
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+
+.Portfoilo-mainContainerleft {
+    width: 35%;
+    height: 100%;
+    background-color: #102e46;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 30px;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.Portfoilo-mainContainermiddle {
+    width: 69%;
+    height: 100%;
+    display: flex;
+}
+
+.Portfoilo-mainContainerright {
+    width: 1%;
+    height: 100%;
+    background-color: #102e46;
+
+}
+
+.portfoilo-title {
+    width: 100%;
+    height: 40%;
+    font-size: 28px;
+    font-weight: 900;
+    display: flex;
+    align-items: end;
+    line-height: 1;
+}
+
+.portfoilo-text {
+    width: 100%;
+    height: 30%;
+    font-size: 16px;
+}
+
+.portfoilo-btn {
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+}
+
+
+.portfoilo-btn button {
+    width: 12em;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffc107;
+    font-size: 16px;
+    color: #fff;
+}
+
+.portfoilo-btn button:hover {
+    background-color: #fff;
+    color: #ffc107;
+    transition: background-color 1s ease;
+
+}
+
+.portfoilo-images {
+    height: 100%;
+    width: 33.3%;
+    position: relative;
+
+}
+
+.portfoilo-images img {
+    height: 100%;
+    width: 100%;
+}
+
+.portfoilo-imageshover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.496);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.portfoilo-imageshover:hover {
+    opacity: 3;
+    transition: 0.8s ease-in-out;
+}
+
+.portfoilo-nextcontainer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.portfoilo-nexts {
+    height: 6px;
+    width: 50px;
+    background-color: #393837;
+}
+
+.portfoilo-nextactive {
+    height: 8px;
+    width: 60px;
+    background-color: #ffc107;
+}
+
+.video-part {
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video-partcontainer {
+    height: 85%;
+    width: 80%;
+    display: flex;
+    gap: 14px;
+}
+
+.video-partcontainerright {
+    height: 100%;
+    width: 49%;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+.video-partcontainerrightu{
+height: 60%;
+width: 98%;
+display: flex;
+flex-direction: column;
+gap: 27px;
+
+}
+
+.plscros {
+    height: 370px;
+    width: 10%;
+    color: #fff;
+}
+
+.video-partcontainerleft {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video-video {
+    height: 67%;
+    width: 100%;
+
+}
+
+.video-video img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 130px;
+
+}
+
+.video-videodown {
+    height: 30%;
+    width: 100%;
+    background-color: #102e46;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-videodown h1 {
+    color: #af933e;
+}
+
+.video-up {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.video-down {
+    height: 33.3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-upcircle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+
+.video-upcircle img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.video-middle {
+height: 40%;
+width: 100%;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+}
+
+.video-middle textarea {
+background-color:#F6F6F6 ;
+}
+
+.video-downup {
+height: 20%;
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-downdown {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.video-carose {
+    height: 3px;
+    width: 50px;
+    background-color: rgb(9, 11, 11);
+}
+
+
+
+
+
+
+/* For devices with a width between 768px and 991px (e.g., tablets in portrait mode) */
+@media (min-width: 768px) and (max-width: 991px) {
+.video-part {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video-videodown {
+    font-size: 12px;
+    line-height: 2;
+}
+
+.video-videodown h1 {
+    color: #af933e;
+}
+
+.video-middle  {
+    line-height: 2;
+    font-size: 14px;
+    text-align: center;
+    padding-inline: 10px;
+}
+
+}
+
+@media (max-width: 767px)
+/* CSS styles for mobile devices */
+    {
+    .Portfoilo {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .Portfoilo-mainContainer {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Portfoilo-mainContainerleft {
+        width: 100%;
+        height: 45%;
+        padding-inline-start: 10px;
+    }
+
+
+    .Portfoilo-mainContainermiddle {
+        width: 100%;
+        height: 55%;
+    }
+
+    .Portfoilo-mainContainerright {
+        display: none;
+    }
+
+
+    .portfoilo-title {
+        width: 100%;
+        height: 30%;
+        font-size: 20px;
+    }
+
+    .portfoilo-text p{
+        width: 100%;
+        height: 20%;
+        font-size: 13px;
+    }
+
+    .portfoilo-btn {
+        width: 100%;
+        height: 40%;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+
+    .portfoilo-btn button {
+        width: 9em;
+        height: 40px;
+    }
+
+    .video-part {
+        height: 93vh;
+        width: 100%;
+    }
+
+    .video-partcontainer {
+        height: 85%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .video-partcontainerright {
+        height: 70%;
+        width: 95%;
+    }
+
+    .video-partcontainerleft {
+        height: 50%;
+        width: 100%;
+    }
+
+    .video-videodown {
+        font-size: 12px;
+    }
+
+    .video-videodown h1 {
+        color: #af933e;
+    }
+
+    .video-middle p {
+        line-height: 2;
+        font-size: 12px;
+        text-align: center;
+        padding-inline: 10px;
+
+    }
+
+}
