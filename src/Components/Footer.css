@@ -1,5 +1,242 @@
-.footer{
+.footer {
     width: 100%;
-    height: 70px;
-    background-color: #102E46;
+    height: 100vh;
+    color: #fff;
+    background: url(../assets/footer-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-up {
+    width: 100%;
+    height: 15%;
+}
+
+.footer-mid {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-down {
+    width: 100%;
+    height: 15%;
+    background-color: #142f48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-midWrapper {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+.footer-Text {
+    width: 23%;
+    height: 100%;
+    /* background-color: #142f48; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.footer-Logo {
+    width: 100%;
+    height: 15%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer-Logo img {
+    width: 30%;
+    height: 100%;
+}
+
+.footer-details {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-socials {
+    height: 17%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-socialsbox {
+    height: 37px;
+    width: 40px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-socialsbox:hover {
+    background-color: #e5b149;
+    border: 2px solid #e5b149;
+    transition: 0.9s ease;
+}
+
+.footer-Service{
+    height: 70%;
+    width: 100%;
+}
+
+.footer-Service li{
+    height: max-content;
+    width: 100%;
+    list-style-type: none;
+   font-size: 16px;
+   font-weight: 200;
+   line-height: 1.7;
+   cursor: pointer;
+}
+
+
+.footer-Service li:hover{
+color: #e5b149;
+}
+
+.Recent-Post{
+    height: 70%;
+    width: 100%;
+}
+
+.Recent-Post1{
+    height: 48%;
+    width: 100%; 
+    margin-bottom: 10px;
+    display: flex;
+    gap: 2%;
+}
+
+.Recent-Postimg{
+    height:100%;
+    width: 39%; 
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+}
+
+.Recent-Postimg img{
+    height:80%;
+    width: 100%; 
+}
+
+
+.Recent-Posttext{
+    height:100%;
+    width: 59%; 
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+
+}
+
+.Recent-Posttext li:hover{
+   color: #e5b149;
+}
+
+.Recent-Posttext li{
+list-style-type: none;
+margin-bottom: 10px;
+}
+
+.Quick-Contact{
+    height:20%;
+    line-height: 1.7;
+}
+
+.Quick-Contact h6{
+    color: #ed9b52;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .footer-midWrapper {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        gap:20px;
+        flex-wrap: wrap;
+        }
+
+        
+        .footer-Text {
+            width: 45%;
+            height: 50%;
+            /* background-color: #142f48; */
+            /* display: flex;
+            justify-content: space-around;
+            flex-direction: column; */
+        }
+ 
+}
+
+@media (max-width: 767px) {
+
+    /* CSS styles for mobile devices */
+    .footer{
+        height: 150vh;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .footer-midWrapper {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        }
+
+        
+    .footer-mid {
+        width: 100%;
+        height: 100%;
+        }
+        .footer-up {
+            width:100%;
+            height: 1%;
+            }
+
+        .footer-Text {
+            width: 100%;
+            height: 250px;
+                 }
+
+                 .footer-down {
+                    width: 100%;
+                    height: 50px;
+                         }
+
 }
