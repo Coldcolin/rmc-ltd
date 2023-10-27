@@ -54,7 +54,7 @@ const Home = () => {
               <h4>We Assure</h4>
             </span>
             <span className="Streight">
-              <h1>Strength, Reliablity, Quality.</h1>
+              <h1>Strength, Reliablity, and Quality.</h1>
             </span>
             <span className="standpoint">
               <p>
