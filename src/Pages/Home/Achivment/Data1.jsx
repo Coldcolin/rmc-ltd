@@ -18,7 +18,7 @@ const Data1 = ({...rest }) => {
             }}
             delayedCall
           >
-            <h1 className="H" ref={countUpRef} />
+            <div className="H" ref={countUpRef} />
           </VisibilitySensor>
         );
       }}

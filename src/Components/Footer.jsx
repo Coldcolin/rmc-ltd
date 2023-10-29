@@ -98,7 +98,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-down">
-        <p>Copyright © multilen all rights reserved.</p>
+        <p>Copyright ©rmc all rights reserved.</p>
       </div>
     </div>
   )

@@ -378,12 +378,26 @@ height: max-content;
 
 }
 .H{
-    font-size: 34px;
-    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    color: #ffffff;
 }
 @media screen and (max-width: 425px){
     .H{
     font-size: 28px;
+    margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 992px){
+    .H{
+    font-size: 50px;
+    margin-top: 25px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 425px) {
+    .H{
+    font-size: 50px;
     margin-top: 25px;
     }
 }
