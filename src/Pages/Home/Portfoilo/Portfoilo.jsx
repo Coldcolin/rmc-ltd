@@ -186,8 +186,10 @@ export const Portfoilo = () => {
                     <img src={review.image} alt='' />
                   </article>
                 </div>
-                <div className='video-middle'>
-                <textarea>{review.Des}</textarea>
+                <div className='video-middles'>
+                <p>
+						      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                </p>
                 </div>
                 <div className='video-downup'>
                     

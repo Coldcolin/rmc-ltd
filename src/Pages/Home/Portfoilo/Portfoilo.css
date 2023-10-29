@@ -47,7 +47,7 @@
     line-height: 1;
 }
 
-.portfoilo-text {
+.portfoilo-text p{
     width: 100%;
     height: 30%;
     font-size: 16px;
@@ -228,17 +228,17 @@ gap: 27px;
     border-radius: 50%;
 }
 
-.video-middle {
-height: 40%;
-width: 100%;
+.video-middles p{
+    height: 40%;
+    width: 100%;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
-.video-middle textarea {
+/* .video-middle textarea {
 background-color:#F6F6F6 ;
-}
+} */
 
 .video-downup {
 height: 20%;
@@ -291,7 +291,7 @@ width: 100%;
     color: #af933e;
 }
 
-.video-middle  {
+.video-middles p {
     line-height: 2;
     font-size: 14px;
     text-align: center;
@@ -389,12 +389,10 @@ width: 100%;
         color: #af933e;
     }
 
-    .video-middle p {
+    /* .video-middle p {
         line-height: 2;
         font-size: 12px;
         text-align: center;
         padding-inline: 10px;
-
-    }
-
+    } */
 }
