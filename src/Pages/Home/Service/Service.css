@@ -174,3 +174,12 @@
        
   
 }
+
+@media (max-width: 424px)
+/* CSS styles for mobile devices */
+    {
+        .Service-titlewhat {
+            font-size: 13px;
+            padding-inline: 8px;
+        }
+    }

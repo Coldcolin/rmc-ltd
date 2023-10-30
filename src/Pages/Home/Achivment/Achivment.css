@@ -395,3 +395,23 @@ height: max-content;
     margin-top: 25px;
     }
 }
+@media screen and (max-width: 424px){
+    .H{
+    font-size: 40px;
+    margin-top: 25px;
+    }
+    .Achivment-backgroundposition{
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .H{
+    font-size: 30px;
+    margin-top: 25px;
+    width: 100%;
+    }
+    .Achivment-backgroundposition{
+        gap: 30px;
+        padding: 10px;
+    }
+}
