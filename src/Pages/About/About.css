@@ -335,6 +335,7 @@ text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
+flex-direction: column;
 }
 
 .video-videodown h1{
@@ -571,5 +572,13 @@ display: none;
 .video-partcontainer{
   height:100%;
   width: 98%;
+}
+.video-middle p{
+  font-size: 13px;
+  padding-top: 20px;
+  } 
+
+  .video-videodown{
+    padding-block: 20px;
 }
 }
