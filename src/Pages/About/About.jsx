@@ -170,8 +170,9 @@ const About = () => {
                             <img src={videobg} alt="" />
                         </main>
                         <main className='video-videodown'>
+                        <h1>For Emergency Contact Only</h1>
                             <h3>
-                            <h1>For Emergency Contact Only</h1>
+                            
                             +8803456788465
                             </h3>
                         </main>

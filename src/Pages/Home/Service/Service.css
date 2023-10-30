@@ -126,6 +126,7 @@
     
         .Service-titletext {
             font-size: 16px;
+            padding-right: 10px;
         }
 
         .Service-body{
@@ -156,7 +157,7 @@
    
     .Service-titletext {
         font-size: 12px;
-        padding-inline: 3px;
+        padding-right: 15px;
     }
 
     .Service-bodycontentboxes{
