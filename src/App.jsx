@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import './App.css'
@@ -8,12 +8,13 @@ import Home from "./Pages/Home/Home";
 
 import Contact from "./Pages/Contact/Contact";
 import About from "./Pages/About/About";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
-    element: <PageLayout/>,
+    element: <><ScrollToTop/><PageLayout/></>,
     children: [
       {
         path: "/",

@@ -396,3 +396,12 @@ width: 100%;
         padding-inline: 10px;
     } */
 }
+
+@media (max-width: 424px)
+/* CSS styles for mobile devices */
+    {
+        .Portfoilo-mainContainerleft{
+            gap: 30px;
+            padding-bottom: 10px;
+        }
+    }

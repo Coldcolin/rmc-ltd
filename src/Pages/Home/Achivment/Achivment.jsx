@@ -64,7 +64,6 @@ export const Achivment = () => {
                     <h3>(CSR)</h3>
                 </div>
 
-
                 <div className='Service-titleimage'>
                     <img src={Shape1} alt="share" />
                 </div>
