@@ -394,6 +394,14 @@ height: max-content;
     font-size: 40px;
     margin-top: 25px;
     }
+    .worker{
+        /* background-color: red; */
+        margin-top: 50px;
+    }
+    .famous{
+        /* background-color: green; */
+        margin-top: 450px;
+    }
 }
 @media screen and (max-width: 424px){
     .H{
@@ -403,6 +411,15 @@ height: max-content;
     .Achivment-backgroundposition{
         gap: 10px;
     }
+    .worker{
+        /* background-color: red; */
+        margin-top: 50px;
+    }
+    .famous{
+        /* background-color: green; */
+        margin-top: 450px;
+    }
+    
 }
 @media screen and (max-width: 320px){
     .H{
@@ -413,5 +430,8 @@ height: max-content;
     .Achivment-backgroundposition{
         gap: 30px;
         padding: 10px;
+    }
+    .worker{
+        background-color: red;
     }
 }
