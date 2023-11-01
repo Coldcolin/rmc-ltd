@@ -15,7 +15,7 @@
 }
 
 .Achivment-backgroundposition {
-    height: 52rem;
+    height: 40rem;
     width: 60%;
     background-color: #102e46;
     position: relative;
@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 10px;
 }
 
 .Achivment-list {
@@ -74,14 +75,15 @@
 }
 
 .Achivment-winscontainers {
-    height: 65%;
-    width: 20%;
+    height: 100%;
+    width: 27%;
     border-right: 2px solid rgb(254, 255, 254);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     line-height: 1.2;
+    /* background-color: #f4ba48; */
 }
 
 .Achivment-winscontainers h1 {
@@ -96,7 +98,7 @@
 }
 
 .famous {
-    height: 40vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     margin-top: 80px;
@@ -240,6 +242,7 @@
     color: #fff;
 }
 
+
 .famous h3 {
     font-size: 24px;
 }
@@ -271,18 +274,24 @@ height: max-content;
 /* CSS styles for mobile devices */
     {
     .Achivment-backgroundposition {
-        width: 90%;
-        left: 1.5em;
-        top: 8em;
-        height: 25rem;
+        width: 85%;
+        left: 2em;
+        top: 4em;
+        height: 22rem;
+        margin-bottom: 0px;
     }
+
+         .Achivment-background{
+            width: 100%;
+            height: 50vh;
+        }
 
 
     .Achivment-title {
         font-size: 14px;
         text-align: center;
-
         height: 15%;
+        margin-top: 20px;
     }
 
     .Achivment-text {
@@ -325,41 +334,32 @@ height: max-content;
     }
 
     .Achivment-winscontainers {
-        height: 35%;
-        width: 30%;
-        border-right: 2px solid rgb(254, 255, 254);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        line-height: 1.2;
-    }
-
-    .Achivment-winscontainers h1 {
-        font-size: 38px;
-        color: #fff;
-
-    }
+        height: 70%;
+        width: 28%;
+            }
 
     .Achivment-winscontainers h6 {
-        font-size: 10px;
+        font-size: 8px;
         color: #f4ba48;
+        text-align: center;
     }
 
 
     .famous {
-        height: 30vh;
-        margin-top: 50%;
-        width: 90%;
+        height:40vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       /* background-color: aqua; */
+       border-bottom: 60px;
     }
 
     .famous h3 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .worker {
          height:max-content;
-     
     }
        
 
@@ -397,7 +397,7 @@ height: max-content;
 }
 @media screen and (max-width: 424px){
     .H{
-    font-size: 40px;
+    font-size: 24px;
     margin-top: 25px;
     }
     .Achivment-backgroundposition{

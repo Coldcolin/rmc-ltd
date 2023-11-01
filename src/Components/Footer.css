@@ -206,7 +206,7 @@ margin-bottom: 10px;
 
     /* CSS styles for mobile devices */
     .footer{
-        height: 150vh;
+        height: 170vh;
         width: 100%;
         padding-top: 20px;
     }
@@ -230,8 +230,8 @@ margin-bottom: 10px;
             }
 
         .footer-Text {
-            width: 100%;
-            height: 250px;
+            width: 90%;
+            height: 265px;
                  }
 
                  .footer-down {
