@@ -50,15 +50,15 @@
     font-size: 20px;
     text-align: justify;
     line-height: 1.5;
-    padding-right:30px;
+    padding-right: 30px;
 }
 
-.Service-body{
+.Service-body {
     height: max-content;
-    width: 100%;    
+    width: 100%;
 }
 
-.Service-bodytop{
+.Service-bodytop {
     height: 100%;
     width: 100%;
     display: flex;
@@ -68,7 +68,7 @@
     gap: 30px;
 }
 
-.Service-bodycontentboxes{
+.Service-bodycontentboxes {
     height: 28rem;
     width: 30%;
     display: flex;
@@ -79,18 +79,18 @@
     flex-basis: 20;
 }
 
-.Service-bodycontentboxesImage{
+.Service-bodycontentboxesImage {
     height: 63%;
     width: 100%;
 }
 
-.Service-bodycontentboxesImage img{
+.Service-bodycontentboxesImage img {
     height: 100%;
     width: 100%;
 
 }
 
-.Service-bodycontentboxestext{
+.Service-bodycontentboxestext {
     height: 37%;
     width: 100%;
     display: flex;
@@ -99,87 +99,112 @@
     line-height: 1.5;
 }
 
-.Service-bodycontentboxestext h2{
- color:#333333;
- font-size: 18px;
-    }
+.Service-bodycontentboxestext h2 {
+    color: #333333;
+    font-size: 18px;
+}
 
-    .Service-bodycontentboxestext p{
-        color:#667db7;
-        }
+.Service-bodycontentboxestext p {
+    color: #667db7;
+}
 
 
-.Service-bodycontentboxes:hover{
+.Service-bodycontentboxes:hover {
     border-bottom: 2px solid rgb(252, 252, 3);
 }
 
-.Service-bodycontentboxestext p{
-    font-size:12 px;
+.Service-bodycontentboxestext p {
+    font-size: 12 px;
 }
 
 /* For devices with a width between 768px and 991px (e.g., tablets in portrait mode) */
 @media (min-width: 768px) and (max-width: 991px) {
-   
-        .Service-titlewhat {
-            font-size: 30px;
-        }
-    
-        .Service-titletext {
-            font-size: 16px;
-            padding-right: 10px;
-        }
 
-        .Service-body{
-            height: max-content;
-            width: 100%; 
-          }
-        .Service-bodycontentboxes{
-            width:45%;
-     }
+    .Service-titlewhat {
+        font-size: 30px;
+    }
 
-     .Service-bodycontentboxestext h2{
+    .Service-titletext {
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .Service-body {
+        height: max-content;
+        width: 100%;
+    }
+
+    .Service-bodycontentboxes {
+        width: 45%;
+    }
+
+    .Service-bodycontentboxestext h2 {
         font-size: 18px;
-           }
+    }
 
 
-    
+
 }
 
-@media (max-width: 767px)
+@media (max-width: 667px)
 /* CSS styles for mobile devices */
     {
-        
+
     .Service-titlewhat {
         font-size: 16px;
-      
-   }
+        width: 100%;
+        text-align: center;
 
-   
+
+    }
+
+    .Service-titleimage {
+        height: 10%;
+    width: 100%;
+   /* display: none; */
+
+    }
+
+    .Service-titleimage img {
+        transform: rotate(90deg);
+        width: 10%;
+    }
+
+
     .Service-titletext {
-        font-size: 12px;
-        padding-right: 15px;
+        font-size: 14px;
+        padding-inline: 10px;
+        width: 100%;
+        /* background-color: #f4bc53; */
     }
 
-    .Service-bodycontentboxes{
-           width:100%;
+    .Service-bodycontentboxes {
+        width: 100%;
     }
 
-    .Service-body{
+    .Service-body {
         height: max-content;
-        width: 100%;    
+        width: 100%;
     }
-    .Service-bodycontentboxestext h2{
+
+    .Service-bodycontentboxestext h2 {
         font-size: 16px;
-           }
-       
-  
+    }
+
+    .Service-title {
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        /* background-color: #667db7; */
+
+        }
 }
 
 @media (max-width: 424px)
 /* CSS styles for mobile devices */
     {
-        .Service-titlewhat {
-            font-size: 13px;
-            padding-inline: 8px;
-        }
+    .Service-titlewhat {
+        font-size: 24px;
+        padding-inline: 8px;
     }
+}
