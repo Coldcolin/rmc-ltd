@@ -33,29 +33,19 @@ export const Achivment = () => {
                     arising from break downs.
                     </p>
                 </div>
-                <div className='Achivment-list'>
-                    <div className='mark'>
-                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
-                    </div>
-                    <div className='mark'>
-                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
-                    </div><div className='mark'>
-                        {/* <ImCheckmark size={20} color='yellow' /> <p> many variations of passages majority suffered Duskam alteration of Lorem</p> */}
-                    </div>
-
-                </div>
+           
                 <div className='Achivment-wins'>
                     <div className='Achivment-winscontainers'>
                         {/* <h1>131</h1> */}
-                        <Data1 end={100} suffix="%"/>
-                        <h6>Indegenous</h6>
+                       <Data1 end={100} suffix="%"/>
+                        <p>Indegenous</p>
                     </div>
                     <div className='Achivment-winscontainers'>
                         <Data1 end={100} suffix="%"/>
-                        <h6>Local Content</h6></div>
+                        <p>Local Content</p></div>
                     <div className='Achivment-winscontainers'>
                         <Data1 end={100} suffix="%"/>
-                        <h6>Costumer Satisfaction</h6></div>
+                        <p>Costumer Satisfaction</p></div>
                 </div>
             </div>
             <header className='famous'>
