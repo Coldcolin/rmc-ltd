@@ -16,6 +16,7 @@
 
 .stroll:hover{
 background-color: #f4ba48;
+transition: background 3ms ease-in;
 }
 
 .strollup{
