@@ -35,8 +35,8 @@ const Header = () => {
           </article>
 
           <article className="header-navs">
-            <NavLink to="/" className={({ isActive }) => (isActive ? "nav-active" : "nav-inactive")}>Home</NavLink>
-            <NavLink to="/about" className={({ isActive }) => (isActive ? "nav-active" : "nav-inactive")}>About Us</NavLink>
+            <NavLink to="/"  className={({ isActive }) => (isActive ? "nav-active" : "nav-inactive")}>Home</NavLink>
+           <NavLink to="/about" className={({ isActive }) => (isActive ? "nav-active" : "nav-inactive")}>About Us</NavLink>
             <NavLink to="/contact" className={({ isActive }) => (isActive ? "nav-active" : "nav-inactive")}>Contact</NavLink>
           </article>
           <article></article>
@@ -48,11 +48,11 @@ const Header = () => {
         menu && (
           <header className="showmenu">
             <article className="showmenu-navs">
-              <NavLink to="/" className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>Home</NavLink>
+              <NavLink to="/"  onClick={Menu} className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>Home</NavLink>
               <hr />
-              <NavLink to="/about" className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>About Us</NavLink>
+              <NavLink to="/about"  onClick={Menu} className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>About Us</NavLink>
               <hr />
-              <NavLink to="/contact" className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>Contact</NavLink>
+              <NavLink to="/contact" onClick={Menu} className={({ isActive }) => (isActive ? "menunav-active" : "menunav")}>Contact</NavLink>
             </article>
           </header>
         )

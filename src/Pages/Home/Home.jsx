@@ -53,9 +53,9 @@ const Home = () => {
             <span className="Quanlity">
               <h4>We Assure</h4>
             </span>
-            <span className="Streight">
+            <div className="Streight">
               <h1>Strength, Reliablity, and Quality.</h1>
-            </span>
+            </div>
             <span className="standpoint">
               <p>
               Rayjay Multinational Company Limited born out of the demand for quality alternative

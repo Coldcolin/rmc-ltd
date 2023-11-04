@@ -5,7 +5,7 @@
 }
 
 .Achivment-background {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-image: url("../../../assets/back.jpg");
     background-repeat: no-repeat;
@@ -15,15 +15,15 @@
 }
 
 .Achivment-backgroundposition {
-    height: 40rem;
-    width: 60%;
+    height: 35rem;
+    width: 55%;
     background-color: #102e46;
     position: relative;
     left: 20em;
-    top: 8em;
+    top: 4em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -35,18 +35,19 @@
     justify-content: center;
     display: flex;
     font-size: 28px;
+    /* background-color: #f4ba48; */
 }
 
 .Achivment-text {
-    height: 15%;
-    width: 80%;
+    height: 30%;
+    width: 90%;
     font-size: 18px;
     line-height: 1.5;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
     margin-top: 10px;
 }
 
@@ -92,20 +93,19 @@
 
 }
 
-.Achivment-winscontainers h6 {
-    font-size: 18px;
+.Achivment-winscontainers p {
+    font-size: 16px;
     color: #f4ba48;
+    font-weight: 600;
 }
 
 .famous {
-    height: 45vh;
+    height: 35vh;
     width: 100%;
     display: flex;
-    margin-top: 80px;
-}
-
-.famous h3 {
-    font-size: 40px;
+    align-items: center;
+    /* background-color: #f4ba48; */
+    margin-block: 80px;
 }
 
 .worker {
@@ -338,7 +338,7 @@ height: max-content;
         width: 28%;
             }
 
-    .Achivment-winscontainers h6 {
+    .Achivment-winscontainers p {
         font-size: 8px;
         color: #f4ba48;
         text-align: center;
@@ -360,12 +360,14 @@ height: max-content;
 
     .worker {
          height:max-content;
+         margin-bottom: 20px;
     }
        
 
     .worker-boxes {
         height: 28rem;
-        width:  100%;          
+        width:  100%;  
+        margin-block: 20px;        
     }
 
     .worker-wrapper {
@@ -376,22 +378,23 @@ height: max-content;
         gap: 20px;
     }
 
+  
 }
 .H{
-    font-size: 70px;
+    text-align: center;
     font-weight: bold;
     color: #ffffff;
 }
 
 @media screen and (max-width: 1600px) and (min-width: 992px){
     .H{
-    font-size: 50px;
+    font-size: 48px;
     margin-top: 25px;
     }
 }
 @media screen and (max-width: 992px) and (min-width: 425px) {
     .H{
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 25px;
     }
     .worker{
@@ -423,7 +426,7 @@ height: max-content;
 }
 @media screen and (max-width: 320px){
     .H{
-    font-size: 30px;
+    font-size: 10px;
     margin-top: 25px;
     width: 100%;
     }
