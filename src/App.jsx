@@ -55,7 +55,7 @@ window.addEventListener('scroll', changeStroll)
 
       
   <div className={stroll ? "stroll" : "strollup"}>
-    <p><MdKeyboardDoubleArrowUp size={25}/></p>
+    <p><MdKeyboardDoubleArrowUp size={30}/></p>
     </div>
     </>
   )
