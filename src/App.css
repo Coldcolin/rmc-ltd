@@ -1,1 +1,23 @@
+.stroll{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #102e46;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    left: 90%;
+    z-index: 345678;
+    transition-delay: top 999s ease;
+    color: azure;
+}
 
+.stroll:hover{
+background-color: #f4ba48;
+}
+
+.strollup{
+display: none;
+}

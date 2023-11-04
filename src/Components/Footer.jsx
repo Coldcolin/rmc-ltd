@@ -1,7 +1,7 @@
 import "./Footer.css"
 import Logo from "../../src/assets/Logo.png"
 import Foot1 from "../../src/assets/Foot1.jpg"
-import foot2 from "../../src/assets/foot1.jpg"
+import foot1 from "../../src/assets/foot1.jpg"
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import {AiOutlineTwitter,  } from 'react-icons/ai'
 import {GiWorld } from 'react-icons/gi'
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="Recent-Post">
               <div className="Recent-Post1">
                 <div className="Recent-Postimg">
-                  <img src={foot2} alt="" />
+                  <img src={foot1} alt="" />
                 </div>
                 <div className="Recent-Posttext">
                   <li>Safety and security: boosting our wellbeing</li>
