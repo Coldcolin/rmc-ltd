@@ -1,7 +1,7 @@
 import "./Footer.css"
 import Logo from "../../src/assets/Logo.png"
 import Foot1 from "../../src/assets/Foot1.jpg"
-import foot2 from "../../src/assets/foot2.jpg"
+import foot2 from "../../src/assets/foot1.jpg"
 import { FaFacebookF, FaInstagram } from 'react-icons/fa'
 import {AiOutlineTwitter,  } from 'react-icons/ai'
 import {GiWorld } from 'react-icons/gi'
