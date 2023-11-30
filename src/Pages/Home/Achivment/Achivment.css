@@ -2,6 +2,7 @@
     height: max-content;
     width: 100%;
     margin-top: 40px;
+    
 }
 
 .Achivment-background {
@@ -12,6 +13,7 @@
     background-position: center;
     background-size: 100% 100%;
     position: absolute;
+    
 }
 
 .Achivment-backgroundposition {
@@ -19,12 +21,14 @@
     width: 55%;
     background-color: #102e46;
     position: relative;
-    left: 20em;
+    /* left: 28em; */
+    left: 25%;
     top: 4em;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
 }
 
 .Achivment-title {
@@ -384,12 +388,16 @@ height: max-content;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
+    font-size: 48px;
 }
 
 @media screen and (max-width: 1600px) and (min-width: 992px){
     .H{
     font-size: 48px;
     margin-top: 25px;
+    }
+    .Achivment-title h2{
+        font-size: 32px;
     }
 }
 @media screen and (max-width: 992px) and (min-width: 425px) {
